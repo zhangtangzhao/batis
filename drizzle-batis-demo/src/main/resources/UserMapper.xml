@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="com.drizzle.dao.UserMapper">
+    <select id="findAll" resultType="com.drizzle.entity.User">
+        select * from t_user;
+    </select>
+</mapper>
