@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<mapper namespace="com.test.dao.UserMapper">
-    <select id="findAll" resultType="com.test.entity.User">
-        select * from t_user;
-    </select>
-</mapper>
